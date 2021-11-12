@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html{
+   scroll-behavior: smooth;
+}
+body{
+  margin: 10% 15% 0%;
+  font-family:'Poppins', sans-serif;
+}
+header{
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+hr{
+  width: 40%;
+}
+ul{
+  padding-left: 0;
+  text-align:center;
+  list-style-position: inside;
+  list-style-type: none;
+  font-size: 2rem;
+}
+button {
+  border:none;
+  background:none;
+  width:6em;
+}
+
+button:hover span {display:none}
+button#s1:hover:before {
+  content:"•Taberna•";
+  font-size: 1.5rem;
+}
+button#s2:hover:before{
+  content:"•Caminos•";
+  font-size: 1.5rem;
+}
+button#s3:hover:before{
+  content:"•Templo•";
+  font-size: 1.5rem;
+}
+
+.space{
+  padding: 20%;
+}
+div.Bloques h3{
+text-align: center;
+}
+div.Bloques img{
+  width: 100%;
+}
+div#portada img{
+  width: 100%;
+}
+div.carousel.slide {
+width: 50%;
+margin-left: 25%;
+margin-top: 10%;
+}
