@@ -2,15 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 html{
    scroll-behavior: smooth;
+   background-color: #ffbb33;
 }
 body{
-  margin: 10% 15% 0%;
+  margin: 5% 15% 0%;
   font-family:'Poppins', sans-serif;
 }
+
+#borde{
+  border: 1%;
+  border-style: groove;
+  border-width: thick;
+  margin:6%;
+}
+
+#margen{
+  margin: 9%;
+}
+
 header{
-  padding-top: 50%;
+  padding-top: 20%;
   padding-bottom: 50%;
 }
+
+#botonera {
+  margin-top: 20%;
+}
+
 hr{
   width: 40%;
 }
@@ -22,6 +40,7 @@ ul{
   font-size: 2rem;
 }
 button {
+  padding: 2%;
   border:none;
   background:none;
   width:6em;
@@ -29,15 +48,15 @@ button {
 
 button:hover span {display:none}
 button#s1:hover:before {
-  content:"•Taberna•";
+  content:">Taberna<";
   font-size: 1.5rem;
 }
 button#s2:hover:before{
-  content:"•Caminos•";
+  content:">Caminos<";
   font-size: 1.5rem;
 }
 button#s3:hover:before{
-  content:"•Templo•";
+  content:">Templo<";
   font-size: 1.5rem;
 }
 
